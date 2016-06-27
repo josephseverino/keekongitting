@@ -1,10 +1,12 @@
 /* ADD YOUR STYLES HERE */
 .row {
     border-bottom: 1px solid lightgrey; 
-    padding:0px 0px 0px 0px;
+   
 }
 .spaceUnder > td
 {
   padding-bottom: .5em;
 }
-td {padding:15px 30px 10px 30px;}
+td {padding:20px 160px 10px 0px;
+    margin:0px -15px 0px -15px;
+}
