@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="framework.css">
     <link rel="stylesheet" href="main.css">
   </head>
-  <body>
+  <body >
   	<div class="instructions-container">
 
   		<ol class="instruction-list">
@@ -17,9 +17,9 @@
   				<h1 class="instruction-title">Data Table</h1>
 
 	    		<p class="instruction-text">Style a table full of data so that it looks nicer than the brower defaults.</p>
-					<div class="instruction-answer">
+					<div class="instruction-answer section1">
 						<!-- Edit here -->
-						<table >
+						<table class = "spacing">
 							<tr class = "row spaceUnder">
 								<td>0</td>
 								<td>Sean</td>
@@ -45,7 +45,7 @@
 	    		<p class="instruction-text">It should also handle header rows...</p>
 					<div class="instruction-answer">
 						<!-- Edit here -->
-						<table>
+						<table class="spacing">
 							<thead>
 								<tr class = "row spaceUnder">
 									<th>#</th>
@@ -86,12 +86,12 @@
 	    		<p class="instruction-text">Three columns, three prominent numbers, three small labels</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<table>
+			    	<table class="spacing2">
 			    		<tbody>
-			    			<tr>
-			    				<td><div>7</div><div>followers</div></td>
-			    				<td><div>59</div><div>starred</div></td>
-			    				<td><div>28</div><div>following</div></td>
+			    			<tr class="rows">
+			    				<td ><div id="font">7</div><div><font color="lightgrey">followers</font></div></td>
+			    				<td><div id="font">59</div><div><font color="lightgrey">starred</font></div></td>
+			    				<td><div id="font">28</div><div><font color="lightgrey">following</font></div></td>
 			    			</tr>
 			    		</tbody>
 			    	</table>
@@ -105,14 +105,14 @@
 	    		<p class="instruction-text">Bar widths are set in the HTML as if they were populated from the back-end. Everything else should be styled with CSS.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<table>
+			    	<table class="backBlue">
 			    		<tr>
 			    			<th>Javascript</th>
-			    			<td><div style="width: 99%">21%</div></td>
+			    			<td><div   style="width: 99%">21%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Ruby</th>
-			    			<td><div style="width: 57.1%">12%</div></td>
+			    			<td><div  style="width: 57.1%">12%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Java</th>
@@ -120,50 +120,50 @@
 			    		</tr>
 			    		<tr>
 			    			<th>Python</th>
-			    			<td><div style="width: 38.1%">8%</div></td>
+			    			<td><div  style="width: 38.1%">8%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Shell</th>
-			    			<td><div style="width: 38.1%">8%</div></td>
+			    			<td><div  style="width: 38.1%">8%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>PHP</th>
-			    			<td><div style="width: 33.3%">7%</div></td>
+			    			<td><div  style="width: 33.3%">7%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>C</th>
-			    			<td><div style="width: 28.8%">6%</div></td>
+			    			<td><div  style="width: 28.8%">6%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>C++</th>
-			    			<td><div style="width: 23.8%">5%</div></td>
+			    			<td><div  style="width: 23.8%">5%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Perl</th>
-			    			<td><div style="width: 19.0%">4%</div></td>
+			    			<td><div  style="width: 19.0%">4%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Objective-C</th>
-			    			<td><div style="width: 14.3%">3%</div></td>
+			    			<td><div  style="width: 14.3%">3%</div></td>
 			    		</tr>
 			    	</table>
 				    <!-- End editable area -->
 			    </div>
 			  </li>
 
-  			<li>
+  			<li >
   				<h1 class="instruction-title">Lightbox</h1>
 
 	    		<p class="instruction-text">The lightbox should display arbitrary content, centered vertically and horizontally, with everything behind it (the rest of the page) darkened. It should obscure the entire screen, no matter where you are on the page. You may want to disable these styles when you're not actively working on them, otherwise they'll cover the whole page.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<div>
-			    		<div>
+			    	<div class="gray">
+			    		<div class="white">
 				    		<div>
 					    		<h3>Hello</h3>
 						    	<p>Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears. Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
-						    	<div>
-						    		<a href="#">Close</a>
+						    	<div class="redBtn">
+						    		<a  href="#">Close</a>
 						    	</div>
 				    		</div>
 				    	</div>
@@ -187,7 +187,7 @@
 
 		    	<!-- Edit here -->
 					<div class="instruction-answer">
-			    	<div>
+			    	<div class="icon">
 				    	<img src="http://placehold.it/50">
 				    </div>
 			    	<div>
