@@ -63,3 +63,51 @@ console.log("false")
 }
 startsWithA('hello');
 startsWithA('aello');
+
+
+function excite(word){
+    console.log(word+"!!!")
+}
+excite('yes');
+excite('go');
+
+
+function sun(str){
+var lower = str.toLowerCase();
+var test = lower.indexOf("sun");
+if (test === -1){
+    return "false"
+} else {
+    return "true"
+}
+
+}
+sun('sundries'); //should return true
+sun('asunder') ;//should return true
+sun('catapult'); //should return false
+
+
+function tiny(num){
+    if(num < 1 && num > 0){
+    return "true"
+    }else{
+        return "false"
+    }
+}
+
+tiny(12);
+tiny(-1);
+tiny(.7);
+tiny(-.5);
+
+
+
+function getSeconds(time){
+    var min = Number(60*time.substring(0,time.indexOf(":"))) ;
+    var sec = Number(time.substring(time.lastIndexOf(":")+1,time.length));
+    return sec + min;
+    
+ 
+    
+}
+getSeconds('20:30');
