@@ -5,7 +5,7 @@ var phoneNumbers = {};
 var street = {};
 
 for(var i=0; i < userInput; i++){
-    names.push(prompt("What's the name?"));
+    names[i]=prompt("What's the name?");
   
    
 } 
