@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html ng-app="CrimeApp">
+<head>
+	<title>Crime Wave</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+	<script type="text/javascript" src="crimeWave.js"></script>
+	<script type="text/javascript" src="controller.crimeWave.js"></script>
+	<script type="text/javascript" src="factory.crimeWave.js"></script>
+</head>
+<body ng-controller="crimeWaveController as cwCtrl">
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<h1 class="text-center"> Crime Wave </h1>
+			<div>{{cwCtrl.crimeData[200].address}}</div>
+		</div>	
+	</div>
+	<div >
+		<div >
+			
+		</div>
+	</div>
+</div>
